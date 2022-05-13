@@ -22,6 +22,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 <style>
 @import '@/assets/base.css';
+@import 'bootstrap';
 
 #app {
   max-width: 1280px;
