@@ -1,20 +1,24 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import 'bootstrap';
-import 'axios'
+import { RouterLink, RouterView } from "vue-router";
+import "bootstrap";
+import "axios";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="80" height="80" />
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="@/assets/logo.svg"
+      width="80"
+      height="80"
+    />
 
     <div class="wrapper mb-4">
-
       <nav>
         <RouterLink to="/"><h4>Home</h4></RouterLink>
         <RouterLink to="/offer"><h4>Offer</h4></RouterLink>
         <RouterLink to="/contact"><h4>Contact</h4></RouterLink>
-
       </nav>
     </div>
   </header>
@@ -23,8 +27,8 @@ import 'axios'
 </template>
 
 <style>
-@import '@/assets/base.css';
-@import 'bootstrap';
+@import "@/assets/base.css";
+@import "bootstrap";
 
 #app {
   max-width: 1280px;
@@ -56,7 +60,7 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
-  color:black;
+  color: black;
 }
 
 nav a.router-link-exact-active {
@@ -76,5 +80,4 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
 </style>
