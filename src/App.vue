@@ -19,6 +19,7 @@ import "axios";
         <RouterLink to="/"><h4>Home</h4></RouterLink>
         <RouterLink to="/offer"><h4>Offer</h4></RouterLink>
         <RouterLink to="/contact"><h4>Contact</h4></RouterLink>
+        <RouterLink to="/filter"><h4>Filter</h4></RouterLink>
       </nav>
     </div>
   </header>
