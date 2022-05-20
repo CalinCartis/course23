@@ -30,6 +30,7 @@ import "axios";
 <style>
 @import "@/assets/base.css";
 @import "bootstrap";
+@import "bootstrap-icons";
 
 #app {
   max-width: 1280px;
