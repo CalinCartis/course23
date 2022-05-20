@@ -28,6 +28,11 @@ const persons = [
     email: "marcel.rural@emanuel.ro",
     phone: "077400000000",
   },
+  {
+    name: "Istvan Nagy",
+    email: "istvan.nagy@emanuel.ro",
+    phone: "077400000000",
+  },
 ];
 
 var letters = ref([]);
